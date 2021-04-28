@@ -42,6 +42,10 @@ const router5 = [
     {
         title: '电子书上传',
         path: '电子书上传'
+    },
+    {
+        title: '电子书新增',
+        path: '电子书新增'
     }
 ]
 
