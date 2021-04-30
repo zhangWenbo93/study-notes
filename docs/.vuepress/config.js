@@ -23,7 +23,7 @@ module.exports = {
                     { text: '设计模式', link: '/design-patterns/面向对象_01' },
                     { text: '面试基础', link: '/interview-basis/mind-mapping' },
                     { text: '面试进阶', link: '/interview-advanced/mind-mapping' },
-                    { text: 'vue读书后台管理', link: '/cms-vue/advance' }
+                    { text: 'vue koa 实现后台管理', link: '/cms-vue/advance' }
                 ]
             }
         ],
@@ -61,7 +61,7 @@ module.exports = {
             ],
             '/cms-vue/': [
                 {
-                    title: 'vue读书后台管理',
+                    title: 'vue koa 实现后台管理',
                     collapsable: false,
                     sidebarDepth: 2,
                     children: router5

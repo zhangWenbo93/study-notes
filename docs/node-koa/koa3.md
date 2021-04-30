@@ -12,10 +12,10 @@
 
 ## 获取HTTP请求参数
 
-* Query String，如?q=keyword
-* Router Params， 如/users/:id
-* Body，如{ name: "张三" }，（放在链接中不安全，后台日志会将某些蒙安数据暴露在日志当中，在一个，浏览器对于拼接参数有长度限制）
-* Header，如：Accept,Cookie
+* Query String，如?q=keyword (参数获取ctx.request.query)
+* Router Params， 如/users/:id (参数获取ctx.params)
+* Body，如{ name: "张三" }，（放在链接中不安全，后台日志会将某些蒙安数据暴露在日志当中，在一个，浏览器对于拼接参数有长度限制） (参数获取ctx.request.body)
+* Header，如：Accept,Cookie (参数获取ctx.request.header)
 
 #### 操作步骤
 
