@@ -3,9 +3,10 @@ const router2 = require('../design-patterns/router.js')
 const router3 = require('../interview-basis/router.js')
 const router4 = require('../interview-advanced/router.js')
 const router5 = require('../cms-vue/router.js')
+const router6 = require('../HTTP/router.js')
 
 module.exports = {
-    title: '笔记',
+    title: 'Notes',
     description: '自我学习',
     port: '8888',
     markdown: {
@@ -23,7 +24,8 @@ module.exports = {
                     { text: '设计模式', link: '/design-patterns/面向对象_01' },
                     { text: '面试基础', link: '/interview-basis/mind-mapping' },
                     { text: '面试进阶', link: '/interview-advanced/mind-mapping' },
-                    { text: 'vue koa 实现后台管理', link: '/cms-vue/advance' }
+                    { text: 'vue koa 实现后台管理', link: '/cms-vue/advance' },
+                    { text: 'HTTP协议', link: '/HTTP/了解HTTP协议' }
                 ]
             }
         ],
@@ -65,6 +67,14 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 2,
                     children: router5
+                }
+            ],
+            '/HTTP/': [
+                {
+                    title: 'HTTP协议',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: router6
                 }
             ]
         }
