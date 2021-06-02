@@ -73,7 +73,7 @@ module.exports = {
                 {
                     title: 'HTTP协议',
                     collapsable: false,
-                    sidebarDepth: 2,
+                    sidebarDepth: 4,
                     children: router6
                 }
             ]
