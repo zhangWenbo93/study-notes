@@ -12,10 +12,6 @@ const router6 = [
         path: 'HTTP的特性和使用'
     },
     {
-        title: 'HTTP协议构建应用',
-        path: 'HTTP协议构建应用'
-    },
-    {
         title: '安全的HTTPS',
         path: '安全的HTTPS'
     },
