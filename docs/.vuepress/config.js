@@ -4,6 +4,7 @@ const router3 = require('../interview-basis/router.js')
 const router4 = require('../interview-advanced/router.js')
 const router5 = require('../cms-vue/router.js')
 const router6 = require('../HTTP/router.js')
+const router7 = require('../node/router.js')
 
 module.exports = {
     title: 'Notes',
@@ -25,7 +26,8 @@ module.exports = {
                     { text: '面试基础', link: '/interview-basis/mind-mapping' },
                     { text: '面试进阶', link: '/interview-advanced/mind-mapping' },
                     { text: 'vue koa 实现后台管理', link: '/cms-vue/advance' },
-                    { text: 'HTTP协议', link: '/HTTP/了解HTTP协议' }
+                    { text: 'HTTP协议', link: '/HTTP/了解HTTP协议' },
+                    { text: 'node应用开发', link: '/node/Node.js在前后端的区别' }
                 ]
             }
         ],
@@ -75,6 +77,14 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 4,
                     children: router6
+                }
+            ],
+            '/node/': [
+                {
+                    title: 'node应用开发',
+                    collapsable: false,
+                    sidebarDepth: 4,
+                    children: router7
                 }
             ]
         }

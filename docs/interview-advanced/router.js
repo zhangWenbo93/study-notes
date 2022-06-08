@@ -1,6 +1,6 @@
 const router3 = [
     {
-        title: 'CSS面试',
+        title: '思维导图',
         path: 'mind-mapping'
     },
     {
