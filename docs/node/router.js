@@ -8,8 +8,8 @@ const router7 = [
         path: 'Node.js高性能如何做到的'
     },
     {
-        title: 'Node.js适合的应用场景',
-        path: 'Node.js适合的应用场景'
+        title: '如何快速构建 RESTful 服务',
+        path: '如何快速构建 RESTful 服务'
     }
 ];
 
