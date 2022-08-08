@@ -10,6 +10,10 @@ const router7 = [
     {
         title: '如何快速构建 RESTful 服务',
         path: '如何快速构建 RESTful 服务'
+    },
+    {
+        title: '多进程问题如何处理',
+        path: '多进程问题如何处理'
     }
 ];
 

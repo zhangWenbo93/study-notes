@@ -1,4 +1,4 @@
-const router1 = require('../node-koa/router.js')
+const router1 = require('../koa2/router.js')
 const router2 = require('../design-patterns/router.js')
 const router3 = require('../interview-basis/router.js')
 const router4 = require('../interview-advanced/router.js')
@@ -21,7 +21,7 @@ module.exports = {
             {
                 text: '笔记',
                 items: [
-                    { text: 'Node-Koa', link: '/node-koa/restful' },
+                    { text: 'koa2', link: '/koa2/restful' },
                     { text: '设计模式', link: '/design-patterns/面向对象_01' },
                     { text: '面试基础', link: '/interview-basis/mind-mapping' },
                     { text: '面试进阶', link: '/interview-advanced/mind-mapping' },
@@ -32,9 +32,9 @@ module.exports = {
             }
         ],
         sidebar: {
-            '/node-koa/': [
+            '/koa2/': [
                 {
-                    title: 'Node-Koa',
+                    title: 'koa2',
                     collapsable: false,
                     children: router1
                 }
