@@ -72,6 +72,28 @@ export const siteData = {
       "lastUpdated": "5/27/2021, 6:26:29 PM"
     },
     {
+      "frontmatter": {},
+      "regularPath": "/cms-vue/",
+      "relativePath": "cms-vue/README.md",
+      "key": "v-522688ba",
+      "path": "/cms-vue/",
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "开始 →",
+        "actionLink": "/koa2/restful",
+        "features": null
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-0ac4d720",
+      "path": "/",
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
+    },
+    {
       "title": "安全的 HTTPS",
       "frontmatter": {},
       "regularPath": "/HTTP/%E5%AE%89%E5%85%A8%E7%9A%84HTTPS.html",
@@ -103,49 +125,6 @@ export const siteData = {
       "lastUpdated": "8/25/2021, 4:44:53 PM"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "开始 →",
-        "actionLink": "/koa2/restful",
-        "features": null
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-0ac4d720",
-      "path": "/",
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/cms-vue/",
-      "relativePath": "cms-vue/README.md",
-      "key": "v-522688ba",
-      "path": "/cms-vue/",
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
-      "title": "Vuex 和 Vue-router 进阶",
-      "frontmatter": {},
-      "regularPath": "/cms-vue/vuex-vue-router.html",
-      "relativePath": "cms-vue/vuex-vue-router.md",
-      "key": "v-2e9ca63b",
-      "path": "/cms-vue/vuex-vue-router.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Vuex 原理解析",
-          "slug": "vuex-原理解析"
-        },
-        {
-          "level": 2,
-          "title": "vue-router 实现原理",
-          "slug": "vue-router-实现原理"
-        }
-      ],
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
       "title": "前端框架搭建",
       "frontmatter": {},
       "regularPath": "/cms-vue/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA.html",
@@ -167,42 +146,6 @@ export const siteData = {
           "level": 2,
           "title": "项目结构",
           "slug": "项目结构"
-        }
-      ],
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
-      "title": "功能分析",
-      "frontmatter": {},
-      "regularPath": "/cms-vue/%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90.html",
-      "relativePath": "cms-vue/功能分析.md",
-      "key": "v-a4ac9f9e",
-      "path": "/cms-vue/%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "epub 电子书",
-          "slug": "epub-电子书"
-        },
-        {
-          "level": 2,
-          "title": "Nginx 搭建",
-          "slug": "nginx-搭建"
-        },
-        {
-          "level": 3,
-          "title": "安装 nginx",
-          "slug": "安装-nginx"
-        },
-        {
-          "level": 3,
-          "title": "修改配置文件",
-          "slug": "修改配置文件"
-        },
-        {
-          "level": 3,
-          "title": "Nginx 启动相关",
-          "slug": "nginx-启动相关"
         }
       ],
       "lastUpdated": "4/27/2021, 7:07:44 PM"
@@ -244,6 +187,42 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
+      "title": "功能分析",
+      "frontmatter": {},
+      "regularPath": "/cms-vue/%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90.html",
+      "relativePath": "cms-vue/功能分析.md",
+      "key": "v-a4ac9f9e",
+      "path": "/cms-vue/%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "epub 电子书",
+          "slug": "epub-电子书"
+        },
+        {
+          "level": 2,
+          "title": "Nginx 搭建",
+          "slug": "nginx-搭建"
+        },
+        {
+          "level": 3,
+          "title": "安装 nginx",
+          "slug": "安装-nginx"
+        },
+        {
+          "level": 3,
+          "title": "修改配置文件",
+          "slug": "修改配置文件"
+        },
+        {
+          "level": 3,
+          "title": "Nginx 启动相关",
+          "slug": "nginx-启动相关"
+        }
+      ],
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
       "title": "常用命令",
       "frontmatter": {},
       "regularPath": "/cms-vue/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.html",
@@ -278,6 +257,27 @@ export const siteData = {
         }
       ],
       "lastUpdated": "5/14/2021, 5:10:17 PM"
+    },
+    {
+      "title": "Vuex 和 Vue-router 进阶",
+      "frontmatter": {},
+      "regularPath": "/cms-vue/vuex-vue-router.html",
+      "relativePath": "cms-vue/vuex-vue-router.md",
+      "key": "v-2e9ca63b",
+      "path": "/cms-vue/vuex-vue-router.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vuex 原理解析",
+          "slug": "vuex-原理解析"
+        },
+        {
+          "level": 2,
+          "title": "vue-router 实现原理",
+          "slug": "vue-router-实现原理"
+        }
+      ],
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
       "title": "电子书编辑",
@@ -322,34 +322,19 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
-      "title": "路由和权限校验",
       "frontmatter": {},
-      "regularPath": "/cms-vue/%E8%B7%AF%E7%94%B1%E5%92%8C%E6%9D%83%E9%99%90%E6%A0%A1%E9%AA%8C.html",
-      "relativePath": "cms-vue/路由和权限校验.md",
-      "key": "v-32513a82",
-      "path": "/cms-vue/%E8%B7%AF%E7%94%B1%E5%92%8C%E6%9D%83%E9%99%90%E6%A0%A1%E9%AA%8C.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "路由处理逻辑分析",
-          "slug": "路由处理逻辑分析"
-        },
-        {
-          "level": 3,
-          "title": "代码分析",
-          "slug": "代码分析"
-        },
-        {
-          "level": 2,
-          "title": "动态路由源码分析",
-          "slug": "动态路由源码分析"
-        },
-        {
-          "level": 3,
-          "title": "相关代码",
-          "slug": "相关代码"
-        }
-      ],
+      "regularPath": "/design-patterns/",
+      "relativePath": "design-patterns/README.md",
+      "key": "v-2d1ca59a",
+      "path": "/design-patterns/",
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/config.html",
+      "relativePath": "config.md",
+      "key": "v-5a235ba3",
+      "path": "/config.html",
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
@@ -384,6 +369,37 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
+      "title": "路由和权限校验",
+      "frontmatter": {},
+      "regularPath": "/cms-vue/%E8%B7%AF%E7%94%B1%E5%92%8C%E6%9D%83%E9%99%90%E6%A0%A1%E9%AA%8C.html",
+      "relativePath": "cms-vue/路由和权限校验.md",
+      "key": "v-32513a82",
+      "path": "/cms-vue/%E8%B7%AF%E7%94%B1%E5%92%8C%E6%9D%83%E9%99%90%E6%A0%A1%E9%AA%8C.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "路由处理逻辑分析",
+          "slug": "路由处理逻辑分析"
+        },
+        {
+          "level": 3,
+          "title": "代码分析",
+          "slug": "代码分析"
+        },
+        {
+          "level": 2,
+          "title": "动态路由源码分析",
+          "slug": "动态路由源码分析"
+        },
+        {
+          "level": 3,
+          "title": "相关代码",
+          "slug": "相关代码"
+        }
+      ],
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
       "title": "项目部署",
       "frontmatter": {},
       "regularPath": "/cms-vue/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2.html",
@@ -398,22 +414,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "5/26/2021, 5:56:39 PM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/config.html",
-      "relativePath": "config.md",
-      "key": "v-5a235ba3",
-      "path": "/config.html",
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/design-patterns/",
-      "relativePath": "design-patterns/README.md",
-      "key": "v-2d1ca59a",
-      "path": "/design-patterns/",
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
       "title": "UML类图",
@@ -524,32 +524,6 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
-      "title": "外观模式",
-      "frontmatter": {},
-      "regularPath": "/design-patterns/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F_9.html",
-      "relativePath": "design-patterns/外观模式_9.md",
-      "key": "v-5943132f",
-      "path": "/design-patterns/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F_9.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、介绍",
-          "slug": "一、介绍"
-        },
-        {
-          "level": 2,
-          "title": "二、场景",
-          "slug": "二、场景"
-        },
-        {
-          "level": 2,
-          "title": "三、总结",
-          "slug": "三、总结"
-        }
-      ],
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
       "title": "单例模式",
       "frontmatter": {},
       "regularPath": "/design-patterns/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F_05.html",
@@ -617,6 +591,32 @@ export const siteData = {
           "level": 2,
           "title": "五、示例",
           "slug": "五、示例"
+        }
+      ],
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
+      "title": "外观模式",
+      "frontmatter": {},
+      "regularPath": "/design-patterns/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F_9.html",
+      "relativePath": "design-patterns/外观模式_9.md",
+      "key": "v-5943132f",
+      "path": "/design-patterns/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F_9.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、介绍",
+          "slug": "一、介绍"
+        },
+        {
+          "level": 2,
+          "title": "二、场景",
+          "slug": "二、场景"
+        },
+        {
+          "level": 2,
+          "title": "三、总结",
+          "slug": "三、总结"
         }
       ],
       "lastUpdated": "4/27/2021, 7:07:44 PM"
@@ -714,42 +714,6 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
-      "title": "设计原则",
-      "frontmatter": {},
-      "regularPath": "/design-patterns/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99_03.html",
-      "relativePath": "design-patterns/设计原则_03.md",
-      "key": "v-42b0aa6b",
-      "path": "/design-patterns/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99_03.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、 何为设计",
-          "slug": "一、-何为设计"
-        },
-        {
-          "level": 2,
-          "title": "二、五大设计原则（SOLID）",
-          "slug": "二、五大设计原则-solid"
-        },
-        {
-          "level": 2,
-          "title": "三、从设计到模式",
-          "slug": "三、从设计到模式"
-        },
-        {
-          "level": 2,
-          "title": "四、介绍23种设计模式",
-          "slug": "四、介绍23种设计模式"
-        },
-        {
-          "level": 2,
-          "title": "五、如何学习设计模式",
-          "slug": "五、如何学习设计模式"
-        }
-      ],
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
       "title": "观察者模式",
       "frontmatter": {},
       "regularPath": "/design-patterns/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F_10.html",
@@ -781,6 +745,42 @@ export const siteData = {
           "level": 2,
           "title": "五、示例",
           "slug": "五、示例"
+        }
+      ],
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
+      "title": "设计原则",
+      "frontmatter": {},
+      "regularPath": "/design-patterns/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99_03.html",
+      "relativePath": "design-patterns/设计原则_03.md",
+      "key": "v-42b0aa6b",
+      "path": "/design-patterns/%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99_03.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、 何为设计",
+          "slug": "一、-何为设计"
+        },
+        {
+          "level": 2,
+          "title": "二、五大设计原则（SOLID）",
+          "slug": "二、五大设计原则-solid"
+        },
+        {
+          "level": 2,
+          "title": "三、从设计到模式",
+          "slug": "三、从设计到模式"
+        },
+        {
+          "level": 2,
+          "title": "四、介绍23种设计模式",
+          "slug": "四、介绍23种设计模式"
+        },
+        {
+          "level": 2,
+          "title": "五、如何学习设计模式",
+          "slug": "五、如何学习设计模式"
         }
       ],
       "lastUpdated": "4/27/2021, 7:07:44 PM"
@@ -862,34 +862,11 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
-      "title": "迭代器模式",
       "frontmatter": {},
-      "regularPath": "/design-patterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_11.html",
-      "relativePath": "design-patterns/迭代器模式_11.md",
-      "key": "v-742c0b9f",
-      "path": "/design-patterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_11.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一、介绍",
-          "slug": "一、介绍"
-        },
-        {
-          "level": 2,
-          "title": "二、演示",
-          "slug": "二、演示"
-        },
-        {
-          "level": 2,
-          "title": "三、场景",
-          "slug": "三、场景"
-        },
-        {
-          "level": 2,
-          "title": "四、总结",
-          "slug": "四、总结"
-        }
-      ],
+      "regularPath": "/interview-advanced/",
+      "relativePath": "interview-advanced/README.md",
+      "key": "v-394bcf50",
+      "path": "/interview-advanced/",
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
@@ -933,21 +910,55 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
+      "title": "模板编译",
       "frontmatter": {},
-      "regularPath": "/interview-advanced/",
-      "relativePath": "interview-advanced/README.md",
-      "key": "v-394bcf50",
-      "path": "/interview-advanced/",
-      "lastUpdated": "4/27/2021, 7:07:44 PM"
+      "regularPath": "/interview-advanced/%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91.html",
+      "relativePath": "interview-advanced/模板编译.md",
+      "key": "v-3df9de48",
+      "path": "/interview-advanced/%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vue-template-compiler",
+          "slug": "vue-template-compiler"
+        },
+        {
+          "level": 3,
+          "title": "通过模板渲染看 v-model",
+          "slug": "通过模板渲染看-v-model"
+        }
+      ]
     },
     {
-      "title": "Vue 使用和原理",
+      "title": "迭代器模式",
       "frontmatter": {},
-      "regularPath": "/interview-advanced/Vue%E4%BD%BF%E7%94%A8.html",
-      "relativePath": "interview-advanced/Vue使用.md",
-      "key": "v-1a1aa737",
-      "path": "/interview-advanced/Vue%E4%BD%BF%E7%94%A8.html",
-      "lastUpdated": "5/26/2021, 5:56:39 PM"
+      "regularPath": "/design-patterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_11.html",
+      "relativePath": "design-patterns/迭代器模式_11.md",
+      "key": "v-742c0b9f",
+      "path": "/design-patterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F_11.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "一、介绍",
+          "slug": "一、介绍"
+        },
+        {
+          "level": 2,
+          "title": "二、演示",
+          "slug": "二、演示"
+        },
+        {
+          "level": 2,
+          "title": "三、场景",
+          "slug": "三、场景"
+        },
+        {
+          "level": 2,
+          "title": "四、总结",
+          "slug": "四、总结"
+        }
+      ],
+      "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
       "title": "思维导图",
@@ -966,12 +977,59 @@ export const siteData = {
       "lastUpdated": "4/27/2021, 7:07:44 PM"
     },
     {
+      "title": "Vue 使用和原理",
+      "frontmatter": {},
+      "regularPath": "/interview-advanced/Vue%E4%BD%BF%E7%94%A8.html",
+      "relativePath": "interview-advanced/Vue使用.md",
+      "key": "v-1a1aa737",
+      "path": "/interview-advanced/Vue%E4%BD%BF%E7%94%A8.html",
+      "lastUpdated": "5/26/2021, 5:56:39 PM"
+    },
+    {
+      "title": "Vue组件化和响应式",
+      "frontmatter": {},
+      "regularPath": "/interview-advanced/Vue%E7%BB%84%E4%BB%B6%E5%8C%96%E5%92%8C%E5%93%8D%E5%BA%94%E5%BC%8F.html",
+      "relativePath": "interview-advanced/Vue组件化和响应式.md",
+      "key": "v-48eab3f8",
+      "path": "/interview-advanced/Vue%E7%BB%84%E4%BB%B6%E5%8C%96%E5%92%8C%E5%93%8D%E5%BA%94%E5%BC%8F.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "组件化",
+          "slug": "组件化"
+        },
+        {
+          "level": 3,
+          "title": "MVVM",
+          "slug": "mvvm"
+        },
+        {
+          "level": 2,
+          "title": "响应式",
+          "slug": "响应式"
+        },
+        {
+          "level": 3,
+          "title": "实现一个简单的试图更新",
+          "slug": "实现一个简单的试图更新"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
       "regularPath": "/interview-basis/",
       "relativePath": "interview-basis/README.md",
       "key": "v-741947da",
       "path": "/interview-basis/",
       "lastUpdated": "4/27/2021, 7:07:44 PM"
+    },
+    {
+      "title": "渲染流程",
+      "frontmatter": {},
+      "regularPath": "/interview-advanced/%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html",
+      "relativePath": "interview-advanced/渲染流程.md",
+      "key": "v-0c6dedf6",
+      "path": "/interview-advanced/%E6%B8%B2%E6%9F%93%E6%B5%81%E7%A8%8B.html"
     },
     {
       "title": "思维导图",
@@ -1002,37 +1060,8 @@ export const siteData = {
           "title": "嵌套数据模型",
           "slug": "嵌套数据模型"
         }
-      ]
-    },
-    {
-      "title": "Koa JWT认证",
-      "frontmatter": {},
-      "regularPath": "/koa2/jwt-koa.html",
-      "relativePath": "koa2/jwt-koa.md",
-      "key": "v-38c86b6d",
-      "path": "/koa2/jwt-koa.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Session",
-          "slug": "session"
-        },
-        {
-          "level": 2,
-          "title": "JWT",
-          "slug": "jwt"
-        },
-        {
-          "level": 2,
-          "title": "session vs JWT",
-          "slug": "session-vs-jwt"
-        },
-        {
-          "level": 2,
-          "title": "Node中的JWT",
-          "slug": "node中的jwt"
-        }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "错误处理机制",
@@ -1062,7 +1091,39 @@ export const siteData = {
           "title": "使用koa-parameter校验参数",
           "slug": "使用koa-parameter校验参数"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
+    },
+    {
+      "title": "Koa JWT认证",
+      "frontmatter": {},
+      "regularPath": "/koa2/jwt-koa.html",
+      "relativePath": "koa2/jwt-koa.md",
+      "key": "v-38c86b6d",
+      "path": "/koa2/jwt-koa.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Session",
+          "slug": "session"
+        },
+        {
+          "level": 2,
+          "title": "JWT",
+          "slug": "jwt"
+        },
+        {
+          "level": 2,
+          "title": "session vs JWT",
+          "slug": "session-vs-jwt"
+        },
+        {
+          "level": 2,
+          "title": "Node中的JWT",
+          "slug": "node中的jwt"
+        }
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "Koa 上传图片",
@@ -1070,7 +1131,8 @@ export const siteData = {
       "regularPath": "/koa2/koa-upload.html",
       "relativePath": "koa2/koa-upload.md",
       "key": "v-e3b5594a",
-      "path": "/koa2/koa-upload.html"
+      "path": "/koa2/koa-upload.html",
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "Koa介绍",
@@ -1100,7 +1162,8 @@ export const siteData = {
           "title": "洋葱模型",
           "slug": "洋葱模型"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "Koa路由",
@@ -1135,7 +1198,8 @@ export const siteData = {
           "title": "RESTful API最佳实践",
           "slug": "restful-api最佳实践"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "Koa控制器",
@@ -1170,7 +1234,8 @@ export const siteData = {
           "title": "编写控制器",
           "slug": "编写控制器"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "NoSQL和MongoDB",
@@ -1210,7 +1275,8 @@ export const siteData = {
           "title": "mongoose的使用",
           "slug": "mongoose的使用"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "介绍",
@@ -1300,7 +1366,8 @@ export const siteData = {
           "title": "开发者友好",
           "slug": "开发者友好"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
     },
     {
       "title": "Node.js在前后端的区别",
@@ -1356,7 +1423,49 @@ export const siteData = {
           "title": "PM2",
           "slug": "pm2"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
+    },
+    {
+      "title": "Web 安全威胁解析",
+      "frontmatter": {},
+      "regularPath": "/HTTP/Web%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%B5%85%E6%9E%90.html",
+      "relativePath": "HTTP/Web安全威胁浅析.md",
+      "key": "v-d58a29f4",
+      "path": "/HTTP/Web%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%B5%85%E6%9E%90.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Web 安全攻击概述",
+          "slug": "web-安全攻击概述"
+        },
+        {
+          "level": 2,
+          "title": "验证机制安全",
+          "slug": "验证机制安全"
+        },
+        {
+          "level": 2,
+          "title": "会话管理机制",
+          "slug": "会话管理机制"
+        },
+        {
+          "level": 2,
+          "title": "SQL 注入攻击",
+          "slug": "sql-注入攻击"
+        },
+        {
+          "level": 2,
+          "title": "XSS 攻击（跨站脚本攻击）",
+          "slug": "xss-攻击-跨站脚本攻击"
+        },
+        {
+          "level": 2,
+          "title": "CSRF 攻击",
+          "slug": "csrf-攻击"
+        }
+      ],
+      "lastUpdated": "8/31/2021, 5:57:15 PM"
     },
     {
       "title": "HTTP 协议结构和通讯原理",
@@ -1473,47 +1582,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "6/2/2021, 5:53:09 PM"
-    },
-    {
-      "title": "Web 安全威胁解析",
-      "frontmatter": {},
-      "regularPath": "/HTTP/Web%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%B5%85%E6%9E%90.html",
-      "relativePath": "HTTP/Web安全威胁浅析.md",
-      "key": "v-d58a29f4",
-      "path": "/HTTP/Web%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81%E6%B5%85%E6%9E%90.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Web 安全攻击概述",
-          "slug": "web-安全攻击概述"
-        },
-        {
-          "level": 2,
-          "title": "验证机制安全",
-          "slug": "验证机制安全"
-        },
-        {
-          "level": 2,
-          "title": "会话管理机制",
-          "slug": "会话管理机制"
-        },
-        {
-          "level": 2,
-          "title": "SQL 注入攻击",
-          "slug": "sql-注入攻击"
-        },
-        {
-          "level": 2,
-          "title": "XSS 攻击（跨站脚本攻击）",
-          "slug": "xss-攻击-跨站脚本攻击"
-        },
-        {
-          "level": 2,
-          "title": "CSRF 攻击",
-          "slug": "csrf-攻击"
-        }
-      ],
-      "lastUpdated": "8/31/2021, 5:57:15 PM"
     },
     {
       "title": "侧边栏",
@@ -1691,6 +1759,62 @@ export const siteData = {
           "title": "分页设计、模糊搜索、多字段模糊搜索实践",
           "slug": "分页设计、模糊搜索、多字段模糊搜索实践"
         }
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
+    },
+    {
+      "title": "虚拟DOM和diff算法",
+      "frontmatter": {},
+      "regularPath": "/interview-advanced/%E8%99%9A%E6%8B%9FDOM%E5%92%8Cdiff%E7%AE%97%E6%B3%95.html",
+      "relativePath": "interview-advanced/虚拟DOM和diff算法.md",
+      "key": "v-524dacba",
+      "path": "/interview-advanced/%E8%99%9A%E6%8B%9FDOM%E5%92%8Cdiff%E7%AE%97%E6%B3%95.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用JS模拟DOM结构",
+          "slug": "用js模拟dom结构"
+        },
+        {
+          "level": 2,
+          "title": "VDom核心",
+          "slug": "vdom核心"
+        },
+        {
+          "level": 3,
+          "title": "snabbdom",
+          "slug": "snabbdom"
+        },
+        {
+          "level": 3,
+          "title": "h",
+          "slug": "h"
+        },
+        {
+          "level": 3,
+          "title": "vnode",
+          "slug": "vnode"
+        },
+        {
+          "level": 3,
+          "title": "patch",
+          "slug": "patch"
+        },
+        {
+          "level": 2,
+          "title": "diff 算法",
+          "slug": "diff-算法"
+        },
+        {
+          "level": 3,
+          "title": "patchVnode",
+          "slug": "patchvnode"
+        },
+        {
+          "level": 3,
+          "title": "updateChildren",
+          "slug": "updatechildren"
+        }
       ]
     },
     {
@@ -1721,7 +1845,29 @@ export const siteData = {
           "title": "用户属性用话题属性替代",
           "slug": "用户属性用话题属性替代"
         }
-      ]
+      ],
+      "lastUpdated": "8/8/2022, 2:43:56 PM"
+    },
+    {
+      "title": "如何快速构建 RESTful 服务",
+      "frontmatter": {},
+      "regularPath": "/node/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%20RESTful%20%E6%9C%8D%E5%8A%A1.html",
+      "relativePath": "node/如何快速构建 RESTful 服务.md",
+      "key": "v-1521d2d0",
+      "path": "/node/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%20RESTful%20%E6%9C%8D%E5%8A%A1.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "MVC 与 MSVC",
+          "slug": "mvc-与-msvc"
+        },
+        {
+          "level": 3,
+          "title": "案例实践",
+          "slug": "案例实践"
+        }
+      ],
+      "lastUpdated": "6/21/2022, 3:47:25 PM"
     },
     {
       "title": "Node.js高性能如何做到的",
@@ -1768,27 +1914,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "6/8/2022, 4:31:13 PM"
-    },
-    {
-      "title": "如何快速构建 RESTful 服务",
-      "frontmatter": {},
-      "regularPath": "/node/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%20RESTful%20%E6%9C%8D%E5%8A%A1.html",
-      "relativePath": "node/如何快速构建 RESTful 服务.md",
-      "key": "v-1521d2d0",
-      "path": "/node/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%20RESTful%20%E6%9C%8D%E5%8A%A1.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "MVC 与 MSVC",
-          "slug": "mvc-与-msvc"
-        },
-        {
-          "level": 3,
-          "title": "案例实践",
-          "slug": "案例实践"
-        }
-      ],
-      "lastUpdated": "6/21/2022, 3:47:25 PM"
     },
     {
       "title": "基于 HTTP 的功能追加协议",
@@ -1857,6 +1982,27 @@ export const siteData = {
       "lastUpdated": "8/25/2021, 6:03:45 PM"
     },
     {
+      "title": "电子书新增",
+      "frontmatter": {},
+      "regularPath": "/cms-vue/%E7%94%B5%E5%AD%90%E4%B9%A6%E6%96%B0%E5%A2%9E.html",
+      "relativePath": "cms-vue/电子书新增.md",
+      "key": "v-95419a9a",
+      "path": "/cms-vue/%E7%94%B5%E5%AD%90%E4%B9%A6%E6%96%B0%E5%A2%9E.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "服务端",
+          "slug": "服务端"
+        },
+        {
+          "level": 2,
+          "title": "客户端",
+          "slug": "客户端"
+        }
+      ],
+      "lastUpdated": "4/30/2021, 11:25:38 AM"
+    },
+    {
       "title": "电子书上传",
       "frontmatter": {},
       "regularPath": "/cms-vue/%E7%94%B5%E5%AD%90%E4%B9%A6%E4%B8%8A%E4%BC%A0.html",
@@ -1906,27 +2052,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "4/27/2021, 7:07:44 PM"
-    },
-    {
-      "title": "电子书新增",
-      "frontmatter": {},
-      "regularPath": "/cms-vue/%E7%94%B5%E5%AD%90%E4%B9%A6%E6%96%B0%E5%A2%9E.html",
-      "relativePath": "cms-vue/电子书新增.md",
-      "key": "v-95419a9a",
-      "path": "/cms-vue/%E7%94%B5%E5%AD%90%E4%B9%A6%E6%96%B0%E5%A2%9E.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "服务端",
-          "slug": "服务端"
-        },
-        {
-          "level": 2,
-          "title": "客户端",
-          "slug": "客户端"
-        }
-      ],
-      "lastUpdated": "4/30/2021, 11:25:38 AM"
     },
     {
       "title": "HTTP 的特性和使用",
@@ -2304,6 +2429,14 @@ export const siteData = {
             {
               "title": "Vue使用",
               "path": "Vue使用"
+            },
+            {
+              "title": "Vue组件化和响应式",
+              "path": "Vue组件化和响应式"
+            },
+            {
+              "title": "虚拟DOM和diff算法",
+              "path": "虚拟DOM和diff算法"
             }
           ]
         }
