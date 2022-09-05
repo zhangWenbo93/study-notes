@@ -22,6 +22,10 @@ const router3 = [
     {
         title: '渲染流程',
         path: '渲染流程'
+    },
+    {
+        title: '前端路由原理',
+        path: '前端路由原理'
     }
 ]
 

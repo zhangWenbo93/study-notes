@@ -26,7 +26,7 @@ Object.defineProperty(obj, prop, descriptor)有三个参数分别表示为：
 * prop: 需要操作的目标对象的属性名
 * descriptor: 描述符
 
-### 实现一个简单的试图更新
+### 实现一个简单的视图更新
 
 ```js
 function updateView() {
@@ -169,7 +169,6 @@ function observer(target) {
 ```
 
 通过上述制造，当我们使用 data.nums.push(4) 更新data时，则会打印“视图更新”。
-
 
 由此可见，Object.defineProperty 存在一定的缺陷，比如：
 
