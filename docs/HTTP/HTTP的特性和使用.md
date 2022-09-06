@@ -283,6 +283,10 @@ max-age 代表在成功缓存后的60s内，不会再发起请求，会直接使
 | Accept-Charset | 告知服务器发送何种字符集| 说明了实体主体内对象的媒体类型 | Content-Type |
 | Accept-Encoding | 告知服务器发送何种编码| 告知客户端服务器对实体的主体部分选 用的内容编码方式 | Content-Encoding |
 
+### HTTP 缓存综述
+
+![缓存](./img/60.png)
+
 ### 近似匹配
 
 >以 Accept-Language:en;q=0.5,fr;q=0.0,nl;q=1.0,tr;q=0.0 为例

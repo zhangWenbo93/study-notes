@@ -167,7 +167,6 @@ export function vnode(
 * cbs.pre：执行 pre hook（即生命周期函数）
 * isElement： 判断是不是一个元素节点
 * sameVnode：判断是不是相同的 vnode，会通过对 key 值以及节点属性进行判断，相同则进行 patchVnode 处理，否则删掉重新创建vnode
-* patchVnode：
 
 **patch** 函数如下：
 
