@@ -26,6 +26,10 @@ const router3 = [
     {
         title: '前端路由原理',
         path: '前端路由原理'
+    },
+    {
+        title: 'webpack',
+        path: 'webpack'
     }
 ]
 
