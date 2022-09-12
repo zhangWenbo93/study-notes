@@ -9,6 +9,7 @@ const router7 = require('../node/router.js')
 module.exports = {
     title: 'Notes',
     description: '自我学习',
+    base: '/study-notes/',
     port: '8888',
     markdown: {
         lineNumbers: false // 代码块显示行号
