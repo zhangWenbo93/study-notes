@@ -24,8 +24,8 @@ module.exports = {
                 items: [
                     { text: 'koa2', link: '/koa2/restful' },
                     { text: '设计模式', link: '/design-patterns/面向对象_01' },
-                    { text: '面试基础', link: '/interview-basis/mind-mapping' },
-                    { text: '面试进阶', link: '/interview-advanced/mind-mapping' },
+                    // { text: '面试基础', link: '/interview-basis/mind-mapping' },
+                    { text: '能力进阶', link: '/interview-advanced/mind-mapping' },
                     { text: 'vue koa 实现后台管理', link: '/cms-vue/advance' },
                     { text: 'HTTP协议', link: '/HTTP/了解HTTP协议' },
                     { text: 'node应用开发', link: '/node/Node.js在前后端的区别' }
@@ -48,17 +48,17 @@ module.exports = {
                     children: router2
                 }
             ],
-            '/interview-basis/': [
-                {
-                    title: '面试基础',
-                    collapsable: false,
-                    sidebarDepth: 2,
-                    children: router3
-                }
-            ],
+            // '/interview-basis/': [
+            //     {
+            //         title: '面试基础',
+            //         collapsable: false,
+            //         sidebarDepth: 2,
+            //         children: router3
+            //     }
+            // ],
             '/interview-advanced/': [
                 {
-                    title: '面试进阶',
+                    title: '能力进阶',
                     collapsable: false,
                     sidebarDepth: 2,
                     children: router4
