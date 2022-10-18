@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>后端框架搭建 | Notes</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="自我学习">
+    
+    <link rel="preload" href="/study-notes/assets/css/0.styles.f313a13a.css" as="style"><link rel="preload" href="/study-notes/assets/js/app.039e21f8.js" as="script"><link rel="preload" href="/study-notes/assets/js/2.c66ffe4c.js" as="script"><link rel="preload" href="/study-notes/assets/js/33.ff9cf28d.js" as="script"><link rel="prefetch" href="/study-notes/assets/js/10.1f4a0ba6.js"><link rel="prefetch" href="/study-notes/assets/js/11.3f135838.js"><link rel="prefetch" href="/study-notes/assets/js/12.6d5c0016.js"><link rel="prefetch" href="/study-notes/assets/js/13.385e80e5.js"><link rel="prefetch" href="/study-notes/assets/js/14.0abbf9c6.js"><link rel="prefetch" href="/study-notes/assets/js/15.f1a675c1.js"><link rel="prefetch" href="/study-notes/assets/js/16.cff045ba.js"><link rel="prefetch" href="/study-notes/assets/js/17.1b9fa201.js"><link rel="prefetch" href="/study-notes/assets/js/18.15b4e5fe.js"><link rel="prefetch" href="/study-notes/assets/js/19.96819d01.js"><link rel="prefetch" href="/study-notes/assets/js/20.3d35b0e0.js"><link rel="prefetch" href="/study-notes/assets/js/21.b1b57cb8.js"><link rel="prefetch" href="/study-notes/assets/js/22.33771dfd.js"><link rel="prefetch" href="/study-notes/assets/js/23.a732b160.js"><link rel="prefetch" href="/study-notes/assets/js/24.24b15227.js"><link rel="prefetch" href="/study-notes/assets/js/25.69c4ed30.js"><link rel="prefetch" href="/study-notes/assets/js/26.78ff0822.js"><link rel="prefetch" href="/study-notes/assets/js/27.fe95212f.js"><link rel="prefetch" href="/study-notes/assets/js/28.7ad1509a.js"><link rel="prefetch" href="/study-notes/assets/js/29.61218e4f.js"><link rel="prefetch" href="/study-notes/assets/js/3.63146466.js"><link rel="prefetch" href="/study-notes/assets/js/30.f23314bb.js"><link rel="prefetch" href="/study-notes/assets/js/31.cdae011c.js"><link rel="prefetch" href="/study-notes/assets/js/32.60127ca6.js"><link rel="prefetch" href="/study-notes/assets/js/34.7746944f.js"><link rel="prefetch" href="/study-notes/assets/js/35.0216b661.js"><link rel="prefetch" href="/study-notes/assets/js/36.fcf7055f.js"><link rel="prefetch" href="/study-notes/assets/js/37.6e2d7c68.js"><link rel="prefetch" href="/study-notes/assets/js/38.a9661128.js"><link rel="prefetch" href="/study-notes/assets/js/39.f25b8af3.js"><link rel="prefetch" href="/study-notes/assets/js/4.1b408ca5.js"><link rel="prefetch" href="/study-notes/assets/js/40.b2812eac.js"><link rel="prefetch" href="/study-notes/assets/js/41.e63c192c.js"><link rel="prefetch" href="/study-notes/assets/js/42.91310054.js"><link rel="prefetch" href="/study-notes/assets/js/43.195adb7b.js"><link rel="prefetch" href="/study-notes/assets/js/44.b82e0971.js"><link rel="prefetch" href="/study-notes/assets/js/45.54e35d71.js"><link rel="prefetch" href="/study-notes/assets/js/46.4b06e4d8.js"><link rel="prefetch" href="/study-notes/assets/js/47.c58d11ab.js"><link rel="prefetch" href="/study-notes/assets/js/48.69319e05.js"><link rel="prefetch" href="/study-notes/assets/js/49.81df32c4.js"><link rel="prefetch" href="/study-notes/assets/js/5.45c26daa.js"><link rel="prefetch" href="/study-notes/assets/js/50.b86cd1f2.js"><link rel="prefetch" href="/study-notes/assets/js/51.48962766.js"><link rel="prefetch" href="/study-notes/assets/js/52.d5814608.js"><link rel="prefetch" href="/study-notes/assets/js/53.12683cf2.js"><link rel="prefetch" href="/study-notes/assets/js/54.7f8f2a18.js"><link rel="prefetch" href="/study-notes/assets/js/55.397b6083.js"><link rel="prefetch" href="/study-notes/assets/js/56.ab7945ea.js"><link rel="prefetch" href="/study-notes/assets/js/57.d03d45cb.js"><link rel="prefetch" href="/study-notes/assets/js/58.bae8dfce.js"><link rel="prefetch" href="/study-notes/assets/js/59.c7d972b0.js"><link rel="prefetch" href="/study-notes/assets/js/6.ceefd9a6.js"><link rel="prefetch" href="/study-notes/assets/js/60.50c38210.js"><link rel="prefetch" href="/study-notes/assets/js/61.2d11d07c.js"><link rel="prefetch" href="/study-notes/assets/js/62.6b2af576.js"><link rel="prefetch" href="/study-notes/assets/js/63.826c65fe.js"><link rel="prefetch" href="/study-notes/assets/js/64.9960e579.js"><link rel="prefetch" href="/study-notes/assets/js/65.ff4ea3f1.js"><link rel="prefetch" href="/study-notes/assets/js/66.f6631330.js"><link rel="prefetch" href="/study-notes/assets/js/67.d010895e.js"><link rel="prefetch" href="/study-notes/assets/js/68.55195346.js"><link rel="prefetch" href="/study-notes/assets/js/69.05dc4f2e.js"><link rel="prefetch" href="/study-notes/assets/js/7.22afd591.js"><link rel="prefetch" href="/study-notes/assets/js/70.9b1fb209.js"><link rel="prefetch" href="/study-notes/assets/js/71.eff503c4.js"><link rel="prefetch" href="/study-notes/assets/js/72.1c282bd5.js"><link rel="prefetch" href="/study-notes/assets/js/73.6258956d.js"><link rel="prefetch" href="/study-notes/assets/js/74.8debcd50.js"><link rel="prefetch" href="/study-notes/assets/js/75.4cef4522.js"><link rel="prefetch" href="/study-notes/assets/js/76.b4268a30.js"><link rel="prefetch" href="/study-notes/assets/js/77.0ec777b3.js"><link rel="prefetch" href="/study-notes/assets/js/8.c8a1b87b.js"><link rel="prefetch" href="/study-notes/assets/js/9.f05e9459.js">
+    <link rel="stylesheet" href="/study-notes/assets/css/0.styles.f313a13a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study-notes/" class="home-link router-link-active"><!----> <span class="site-name">Notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study-notes/koa2/restful.html" class="nav-link">
+  koa2
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/design-patterns/面向对象_01.html" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/interview-advanced/mind-mapping.html" class="nav-link">
+  能力进阶
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/cms-vue/advance.html" class="nav-link">
+  vue koa 实现后台管理
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/HTTP/了解HTTP协议.html" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/node/Node.js在前后端的区别.html" class="nav-link">
+  node应用开发
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study-notes/koa2/restful.html" class="nav-link">
+  koa2
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/design-patterns/面向对象_01.html" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/interview-advanced/mind-mapping.html" class="nav-link">
+  能力进阶
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/cms-vue/advance.html" class="nav-link">
+  vue koa 实现后台管理
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/HTTP/了解HTTP协议.html" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/node/Node.js在前后端的区别.html" class="nav-link">
+  node应用开发
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>vue koa 实现后台管理</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study-notes/cms-vue/advance.html" class="sidebar-link">Vue进阶</a></li><li><a href="/study-notes/cms-vue/vuex-vue-router.html" class="sidebar-link">Vuex 和 Vue-router 进阶</a></li><li><a href="/study-notes/cms-vue/前端框架搭建.html" class="sidebar-link">前端框架搭建</a></li><li><a href="/study-notes/cms-vue/后端框架搭建.html" class="active sidebar-link">后端框架搭建</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study-notes/cms-vue/后端框架搭建.html#koa简介" class="sidebar-link">Koa简介</a></li><li class="sidebar-sub-header"><a href="/study-notes/cms-vue/后端框架搭建.html#项目初始化" class="sidebar-link">项目初始化</a></li><li class="sidebar-sub-header"><a href="/study-notes/cms-vue/后端框架搭建.html#文件结构" class="sidebar-link">文件结构</a></li><li class="sidebar-sub-header"><a href="/study-notes/cms-vue/后端框架搭建.html#项目搭建" class="sidebar-link">项目搭建</a></li><li class="sidebar-sub-header"><a href="/study-notes/cms-vue/后端框架搭建.html#别名路径配置" class="sidebar-link">别名路径配置</a></li></ul></li><li><a href="/study-notes/cms-vue/功能分析.html" class="sidebar-link">功能分析</a></li><li><a href="/study-notes/cms-vue/登录页.html" class="sidebar-link">用户登录</a></li><li><a href="/study-notes/cms-vue/路由和权限校验.html" class="sidebar-link">路由和权限校验</a></li><li><a href="/study-notes/cms-vue/侧边栏.html" class="sidebar-link">侧边栏</a></li><li><a href="/study-notes/cms-vue/重定向.html" class="sidebar-link">重定向</a></li><li><a href="/study-notes/cms-vue/面包屑导航.html" class="sidebar-link">面包屑导航</a></li><li><a href="/study-notes/cms-vue/电子书上传.html" class="sidebar-link">电子书上传</a></li><li><a href="/study-notes/cms-vue/电子书新增.html" class="sidebar-link">电子书新增</a></li><li><a href="/study-notes/cms-vue/电子书编辑.html" class="sidebar-link">电子书编辑</a></li><li><a href="/study-notes/cms-vue/电子书列表.html" class="sidebar-link">电子书列表</a></li><li><a href="/study-notes/cms-vue/项目部署.html" class="sidebar-link">项目部署</a></li><li><a href="/study-notes/cms-vue/常用命令.html" class="sidebar-link">常用命令</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="后端框架搭建"><a href="#后端框架搭建" class="header-anchor">#</a> 后端框架搭建</h1> <h2 id="koa简介"><a href="#koa简介" class="header-anchor">#</a> Koa简介</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p><a href="https://github.com/koajs/koa" target="_blank" rel="noopener noreferrer">源码<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <p>Koa 是一个新的 web 框架，由 Express 幕后的原班人马打造， 致力于成为 web 应用和 API 开发领域中的一个更小、更富有表现力、更健壮的基石。 通过利用 async 函数，Koa 帮你丢弃回调函数，并有力地增强错误处理。 Koa 并没有捆绑任何中间件， 而是提供了一套优雅的方法，帮助您快速而愉快地编写服务端应用程序。</p> <h2 id="项目初始化"><a href="#项目初始化" class="header-anchor">#</a> 项目初始化</h2> <p>创建项目</p> <div class="language-js extra-class"><pre class="language-js"><code>mkdir books<span class="token operator">-</span>cms
+cd books<span class="token operator">-</span>cms
+npm init
+</code></pre></div><p>安装依赖</p> <div class="language-js extra-class"><pre class="language-js"><code>npm i <span class="token operator">-</span><span class="token constant">S</span> Koa
+</code></pre></div><p>创建 app.js</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> Koa <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Koa</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> isDev <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'production'</span>
+<span class="token keyword">const</span> host <span class="token operator">=</span> isDev <span class="token operator">?</span> <span class="token string">'0.0.0.0'</span> <span class="token operator">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">HOST</span> <span class="token operator">||</span> <span class="token string">'127.0.0.1'</span>
+<span class="token keyword">const</span> port <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">PORT</span> <span class="token operator">||</span> <span class="token string">'3003'</span>
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span>port<span class="token punctuation">,</span> host<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'项目已启动在 http://%s:%s'</span><span class="token punctuation">,</span> host<span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="文件结构"><a href="#文件结构" class="header-anchor">#</a> 文件结构</h2> <div class="language-sh extra-class"><pre class="language-sh"><code>books-cms
+
+├─ app
+│  ├─ api  <span class="token comment"># api 层</span>
+│  │  └─ v1  <span class="token comment"># 普通api</span>
+│  │     └─ book.js
+│  ├─ controller  <span class="token comment"># controller 层</span>
+│  │  └─ v1
+│  │     └─ books.js
+│  ├─ models <span class="token comment"># models 模型层</span>
+│  │  └─ user.js
+│  └─ validator <span class="token comment"># 校验层</span>
+│     └─ validator.js <span class="token comment"># 校验器模块</span>
+├─ app.js <span class="token comment"># 创建koa实例及应用扩展</span>
+├─ config <span class="token comment"># 配置文件目录</span>
+│  └─ config.js <span class="token comment"># 数据库相关配置</span>
+├─ core <span class="token comment"># 其它类库</span>
+│  ├─ db.js <span class="token comment"># Sequelize 实例</span>
+│  ├─ http-exception.js <span class="token comment"># 异常类库</span>
+│  ├─ init.js  <span class="token comment"># 初始化函数</span>
+│  ├─ lin-validator.js <span class="token comment"># 校验类库</span>
+│  └─ util.js  <span class="token comment"># 助手函数</span>
+├─ jsconfig.json
+├─ middlewares <span class="token comment"># 中间件目录</span>
+│  ├─ auth.js
+│  └─ exception.js
+├─ package-lock.json
+└─ package.json
+</code></pre></div><h2 id="项目搭建"><a href="#项目搭建" class="header-anchor">#</a> 项目搭建</h2> <p>全局路由自动注册 <code>core/init.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> Router <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa-router'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> get <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'lodash'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> requireDirectory <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'require-directory'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">class</span> <span class="token class-name">InitManager</span> <span class="token punctuation">{</span>
+    <span class="token keyword">static</span> <span class="token function">initCore</span><span class="token punctuation">(</span><span class="token parameter">app</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        InitManager<span class="token punctuation">.</span>app <span class="token operator">=</span> app<span class="token punctuation">;</span>
+        InitManager<span class="token punctuation">.</span><span class="token function">initLoadRouter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">static</span> <span class="token function">initLoadRouter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//  路由自动注册</span>
+        <span class="token function">requireDirectory</span><span class="token punctuation">(</span>module<span class="token punctuation">,</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>process<span class="token punctuation">.</span><span class="token function">cwd</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/app/api</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+            visit<span class="token operator">:</span> whenModuleLoad
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">function</span> <span class="token function">whenModuleLoad</span><span class="token punctuation">(</span><span class="token parameter">route</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>route <span class="token keyword">instanceof</span> <span class="token class-name">Router</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                InitManager<span class="token punctuation">.</span>app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>route<span class="token punctuation">.</span><span class="token function">routes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>route<span class="token punctuation">.</span><span class="token function">allowedMethods</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">static</span> <span class="token function">initLoadError</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 全局错误注册</span>
+        <span class="token keyword">const</span> errors <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./http-exception'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        global<span class="token punctuation">.</span>errs <span class="token operator">=</span> errors<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> InitManager<span class="token punctuation">;</span>
+</code></pre></div><p>请求相关错误定义 <code>core/http-exception.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+ * @description 继承来自Node自身的错误属性
+ * @date 2021-04-01
+ * @class HttpException
+ * @extends {Error}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">HttpException</span> <span class="token keyword">extends</span> <span class="token class-name">Error</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span>msg <span class="token operator">=</span> <span class="token string">'服务器异常'</span><span class="token punctuation">,</span> errorCode <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">,</span> code <span class="token operator">=</span> <span class="token number">400</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>msg <span class="token operator">=</span> msg<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>errorCode <span class="token operator">=</span> errorCode<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>code <span class="token operator">=</span> code<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/**
+ * @description 资源未找到
+ * @date 2021-04-01
+ * @class NotFound
+ * @extends {HttpException}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">NotFound</span> <span class="token keyword">extends</span> <span class="token class-name">HttpException</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">msg<span class="token punctuation">,</span> errorCode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>msg <span class="token operator">=</span> msg <span class="token operator">||</span> <span class="token string">'资源未找到'</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>errorCode <span class="token operator">=</span> errorCode <span class="token operator">||</span> <span class="token number">10000</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>code <span class="token operator">=</span> <span class="token number">404</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/**
+ * @description 参数不正确
+ * @date 2021-04-01
+ * @class ParameterException
+ * @extends {HttpException}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">ParameterException</span> <span class="token keyword">extends</span> <span class="token class-name">HttpException</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">msg<span class="token punctuation">,</span> errorCode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>msg <span class="token operator">=</span> msg <span class="token operator">||</span> <span class="token string">'参数不正确'</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>errorCode <span class="token operator">=</span> errorCode <span class="token operator">||</span> <span class="token number">10000</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>code <span class="token operator">=</span> <span class="token number">400</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/**
+ * @description 接口请求成功
+ * @date 2021-04-01
+ * @class Success
+ * @extends {HttpException}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">Success</span> <span class="token keyword">extends</span> <span class="token class-name">HttpException</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">msg<span class="token punctuation">,</span> errorCode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>msg <span class="token operator">=</span> msg <span class="token operator">||</span> <span class="token string">'ok'</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>errorCode <span class="token operator">=</span> errorCode <span class="token operator">||</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>code <span class="token operator">=</span> <span class="token number">201</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/**
+ * @description 无权限访问
+ * @date 2021-04-01
+ * @class Forbbiden
+ * @extends {HttpException}
+ */</span>
+<span class="token keyword">class</span> <span class="token class-name">Forbbiden</span> <span class="token keyword">extends</span> <span class="token class-name">HttpException</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">msg<span class="token punctuation">,</span> errorCode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>msg <span class="token operator">=</span> msg <span class="token operator">||</span> <span class="token string">'禁止访问'</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>errorCode <span class="token operator">=</span> errorCode <span class="token operator">||</span> <span class="token number">10006</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>code <span class="token operator">=</span> <span class="token number">403</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    HttpException<span class="token punctuation">,</span>
+    NotFound<span class="token punctuation">,</span>
+    ParameterException<span class="token punctuation">,</span>
+    Success<span class="token punctuation">,</span>
+    Forbbiden
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+</code></pre></div><p>全局错误异常处理 <code>middlewares/exception.js</code></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> HttpException <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'@core/http-exception'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">catchError</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">ctx<span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+        <span class="token keyword">await</span> <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> isHttpException <span class="token operator">=</span> error <span class="token keyword">instanceof</span> <span class="token class-name">HttpException</span><span class="token punctuation">;</span>
+        <span class="token keyword">const</span> isDev <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">!==</span> <span class="token string">'production'</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>isDev <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>isHttpException<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">throw</span> error<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>isHttpException<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 已知错误，即已定义的错误</span>
+            ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token punctuation">{</span>
+                msg<span class="token operator">:</span> error<span class="token punctuation">.</span>msg<span class="token punctuation">,</span>
+                err_code<span class="token operator">:</span> error<span class="token punctuation">.</span>errCode<span class="token punctuation">,</span>
+                request<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>ctx<span class="token punctuation">.</span>method<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>ctx<span class="token punctuation">.</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span>
+            <span class="token punctuation">}</span><span class="token punctuation">;</span>
+            ctx<span class="token punctuation">.</span>status <span class="token operator">=</span> error<span class="token punctuation">.</span>status<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 未知的  未定义的错误</span>
+            ctx<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token punctuation">{</span>
+                msg<span class="token operator">:</span> <span class="token string">'未知异常😂'</span><span class="token punctuation">,</span>
+                err_code<span class="token operator">:</span> <span class="token number">999</span><span class="token punctuation">,</span>
+                request<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>ctx<span class="token punctuation">.</span>method<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>ctx<span class="token punctuation">.</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span>
+            <span class="token punctuation">}</span><span class="token punctuation">;</span>
+            ctx<span class="token punctuation">.</span>status <span class="token operator">=</span> error<span class="token punctuation">.</span>status<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> catchError<span class="token punctuation">;</span>
+</code></pre></div><p>路由、错误处理中间件注册</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> Koa <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> KoaBody <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa-body'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> KoaStatic <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa-static'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> InitManager <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'@core/init'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> catchError <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'@middlewares/exception'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Koa</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> isDev <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span> <span class="token operator">===</span> <span class="token string">'production'</span>
+<span class="token keyword">const</span> host <span class="token operator">=</span> isDev <span class="token operator">?</span> <span class="token string">'0.0.0.0'</span> <span class="token operator">:</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">HOST</span> <span class="token operator">||</span> <span class="token string">'127.0.0.1'</span>
+<span class="token keyword">const</span> port <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">PORT</span> <span class="token operator">||</span> <span class="token string">'3003'</span>
+
+<span class="token comment">// 错误机制中间件在最前面注册</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>catchError<span class="token punctuation">)</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">KoaBody</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment">// 初始化自动加载路由</span>
+InitManager<span class="token punctuation">.</span><span class="token function">initCore</span><span class="token punctuation">(</span>app<span class="token punctuation">)</span>
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span>port<span class="token punctuation">,</span> host<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'项目已启动在 http://%s:%s'</span><span class="token punctuation">,</span> host<span class="token punctuation">,</span> port<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="别名路径配置"><a href="#别名路径配置" class="header-anchor">#</a> 别名路径配置</h2> <ul><li>安装module-alias</li></ul> <div class="language-js extra-class"><pre class="language-js"><code>npm install module<span class="token operator">-</span>alias <span class="token operator">--</span>save
+</code></pre></div><ul><li>使用module-alias</li></ul> <p>在 <code>package.json</code> 中引入，这里@root就是别名，后面引号内的内容就是原路径</p> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token string">&quot;_moduleAliases&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;@root&quot;</span><span class="token operator">:</span> <span class="token string">&quot;.&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@models&quot;</span><span class="token operator">:</span> <span class="token string">&quot;app/models&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@core&quot;</span><span class="token operator">:</span> <span class="token string">&quot;core&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@middlewares&quot;</span><span class="token operator">:</span> <span class="token string">&quot;middlewares&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@validator&quot;</span><span class="token operator">:</span> <span class="token string">&quot;app/validator/validator.js&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@services&quot;</span><span class="token operator">:</span> <span class="token string">&quot;app/services&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@lib&quot;</span><span class="token operator">:</span> <span class="token string">&quot;app/lib&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@config&quot;</span><span class="token operator">:</span> <span class="token string">&quot;config/config.js&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@controller&quot;</span><span class="token operator">:</span> <span class="token string">&quot;app/controller&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>配置文件引入 <code>require(‘module-alias/register’)</code>，建议在 <code>app.js</code> 初始化中引入，放在第一行</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'module-alias/register'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> Koa <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'koa'</span><span class="token punctuation">)</span>
+</code></pre></div><ul><li>ts做特殊映射</li></ul> <p>在 <code>tsconfig.json</code> 文件中添加相应的映射</p> <div class="language-js extra-class"><pre class="language-js"><code>touch tsconfig<span class="token punctuation">.</span>json
+
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;compilerOptions&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;baseUrl&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;paths&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;@models/*&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;app/models/*&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@core/*&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;core/*&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@middlewares/*&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;middlewares/*&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@validator&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;app/validator/validator.js&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@services/*&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;app/services/*&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@lib/*&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;app/lib/*&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@config&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;config/config.js&quot;</span>
+            <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;@controller/*&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;app/controller/*&quot;</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;exclude&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token string">&quot;node_modules&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;dist&quot;</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>后端框架已经初步搭建完毕，可以上路。</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">4/27/2021, 7:07:44 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/study-notes/cms-vue/前端框架搭建.html" class="prev">
+        前端框架搭建
+      </a></span> <span class="next"><a href="/study-notes/cms-vue/功能分析.html">
+        功能分析
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/study-notes/assets/js/app.039e21f8.js" defer></script><script src="/study-notes/assets/js/2.c66ffe4c.js" defer></script><script src="/study-notes/assets/js/33.ff9cf28d.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计原则 | Notes</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="自我学习">
+    
+    <link rel="preload" href="/study-notes/assets/css/0.styles.f313a13a.css" as="style"><link rel="preload" href="/study-notes/assets/js/app.039e21f8.js" as="script"><link rel="preload" href="/study-notes/assets/js/2.c66ffe4c.js" as="script"><link rel="preload" href="/study-notes/assets/js/52.d5814608.js" as="script"><link rel="prefetch" href="/study-notes/assets/js/10.1f4a0ba6.js"><link rel="prefetch" href="/study-notes/assets/js/11.3f135838.js"><link rel="prefetch" href="/study-notes/assets/js/12.6d5c0016.js"><link rel="prefetch" href="/study-notes/assets/js/13.385e80e5.js"><link rel="prefetch" href="/study-notes/assets/js/14.0abbf9c6.js"><link rel="prefetch" href="/study-notes/assets/js/15.f1a675c1.js"><link rel="prefetch" href="/study-notes/assets/js/16.cff045ba.js"><link rel="prefetch" href="/study-notes/assets/js/17.1b9fa201.js"><link rel="prefetch" href="/study-notes/assets/js/18.15b4e5fe.js"><link rel="prefetch" href="/study-notes/assets/js/19.96819d01.js"><link rel="prefetch" href="/study-notes/assets/js/20.3d35b0e0.js"><link rel="prefetch" href="/study-notes/assets/js/21.b1b57cb8.js"><link rel="prefetch" href="/study-notes/assets/js/22.33771dfd.js"><link rel="prefetch" href="/study-notes/assets/js/23.a732b160.js"><link rel="prefetch" href="/study-notes/assets/js/24.24b15227.js"><link rel="prefetch" href="/study-notes/assets/js/25.69c4ed30.js"><link rel="prefetch" href="/study-notes/assets/js/26.78ff0822.js"><link rel="prefetch" href="/study-notes/assets/js/27.fe95212f.js"><link rel="prefetch" href="/study-notes/assets/js/28.7ad1509a.js"><link rel="prefetch" href="/study-notes/assets/js/29.61218e4f.js"><link rel="prefetch" href="/study-notes/assets/js/3.63146466.js"><link rel="prefetch" href="/study-notes/assets/js/30.f23314bb.js"><link rel="prefetch" href="/study-notes/assets/js/31.cdae011c.js"><link rel="prefetch" href="/study-notes/assets/js/32.60127ca6.js"><link rel="prefetch" href="/study-notes/assets/js/33.ff9cf28d.js"><link rel="prefetch" href="/study-notes/assets/js/34.7746944f.js"><link rel="prefetch" href="/study-notes/assets/js/35.0216b661.js"><link rel="prefetch" href="/study-notes/assets/js/36.fcf7055f.js"><link rel="prefetch" href="/study-notes/assets/js/37.6e2d7c68.js"><link rel="prefetch" href="/study-notes/assets/js/38.a9661128.js"><link rel="prefetch" href="/study-notes/assets/js/39.f25b8af3.js"><link rel="prefetch" href="/study-notes/assets/js/4.1b408ca5.js"><link rel="prefetch" href="/study-notes/assets/js/40.b2812eac.js"><link rel="prefetch" href="/study-notes/assets/js/41.e63c192c.js"><link rel="prefetch" href="/study-notes/assets/js/42.91310054.js"><link rel="prefetch" href="/study-notes/assets/js/43.195adb7b.js"><link rel="prefetch" href="/study-notes/assets/js/44.b82e0971.js"><link rel="prefetch" href="/study-notes/assets/js/45.54e35d71.js"><link rel="prefetch" href="/study-notes/assets/js/46.4b06e4d8.js"><link rel="prefetch" href="/study-notes/assets/js/47.c58d11ab.js"><link rel="prefetch" href="/study-notes/assets/js/48.69319e05.js"><link rel="prefetch" href="/study-notes/assets/js/49.81df32c4.js"><link rel="prefetch" href="/study-notes/assets/js/5.45c26daa.js"><link rel="prefetch" href="/study-notes/assets/js/50.b86cd1f2.js"><link rel="prefetch" href="/study-notes/assets/js/51.48962766.js"><link rel="prefetch" href="/study-notes/assets/js/53.12683cf2.js"><link rel="prefetch" href="/study-notes/assets/js/54.7f8f2a18.js"><link rel="prefetch" href="/study-notes/assets/js/55.397b6083.js"><link rel="prefetch" href="/study-notes/assets/js/56.ab7945ea.js"><link rel="prefetch" href="/study-notes/assets/js/57.d03d45cb.js"><link rel="prefetch" href="/study-notes/assets/js/58.bae8dfce.js"><link rel="prefetch" href="/study-notes/assets/js/59.c7d972b0.js"><link rel="prefetch" href="/study-notes/assets/js/6.ceefd9a6.js"><link rel="prefetch" href="/study-notes/assets/js/60.50c38210.js"><link rel="prefetch" href="/study-notes/assets/js/61.2d11d07c.js"><link rel="prefetch" href="/study-notes/assets/js/62.6b2af576.js"><link rel="prefetch" href="/study-notes/assets/js/63.826c65fe.js"><link rel="prefetch" href="/study-notes/assets/js/64.9960e579.js"><link rel="prefetch" href="/study-notes/assets/js/65.ff4ea3f1.js"><link rel="prefetch" href="/study-notes/assets/js/66.f6631330.js"><link rel="prefetch" href="/study-notes/assets/js/67.d010895e.js"><link rel="prefetch" href="/study-notes/assets/js/68.55195346.js"><link rel="prefetch" href="/study-notes/assets/js/69.05dc4f2e.js"><link rel="prefetch" href="/study-notes/assets/js/7.22afd591.js"><link rel="prefetch" href="/study-notes/assets/js/70.9b1fb209.js"><link rel="prefetch" href="/study-notes/assets/js/71.eff503c4.js"><link rel="prefetch" href="/study-notes/assets/js/72.1c282bd5.js"><link rel="prefetch" href="/study-notes/assets/js/73.6258956d.js"><link rel="prefetch" href="/study-notes/assets/js/74.8debcd50.js"><link rel="prefetch" href="/study-notes/assets/js/75.4cef4522.js"><link rel="prefetch" href="/study-notes/assets/js/76.b4268a30.js"><link rel="prefetch" href="/study-notes/assets/js/77.0ec777b3.js"><link rel="prefetch" href="/study-notes/assets/js/8.c8a1b87b.js"><link rel="prefetch" href="/study-notes/assets/js/9.f05e9459.js">
+    <link rel="stylesheet" href="/study-notes/assets/css/0.styles.f313a13a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study-notes/" class="home-link router-link-active"><!----> <span class="site-name">Notes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study-notes/koa2/restful.html" class="nav-link">
+  koa2
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/design-patterns/面向对象_01.html" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/interview-advanced/mind-mapping.html" class="nav-link">
+  能力进阶
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/cms-vue/advance.html" class="nav-link">
+  vue koa 实现后台管理
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/HTTP/了解HTTP协议.html" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/node/Node.js在前后端的区别.html" class="nav-link">
+  node应用开发
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="笔记" class="dropdown-title"><span class="title">笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="笔记" class="mobile-dropdown-title"><span class="title">笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study-notes/koa2/restful.html" class="nav-link">
+  koa2
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/design-patterns/面向对象_01.html" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/interview-advanced/mind-mapping.html" class="nav-link">
+  能力进阶
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/cms-vue/advance.html" class="nav-link">
+  vue koa 实现后台管理
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/HTTP/了解HTTP协议.html" class="nav-link">
+  HTTP协议
+</a></li><li class="dropdown-item"><!----> <a href="/study-notes/node/Node.js在前后端的区别.html" class="nav-link">
+  node应用开发
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>设计模式</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/study-notes/design-patterns/面向对象_01.html" class="sidebar-link">面向对象</a></li><li><a href="/study-notes/design-patterns/UML 类图_02.html" class="sidebar-link">UML 类图</a></li><li><a href="/study-notes/design-patterns/设计原则_03.html" class="active sidebar-link">设计原则</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/study-notes/design-patterns/设计原则_03.html#一、-何为设计" class="sidebar-link">一、 何为设计</a></li><li class="sidebar-sub-header"><a href="/study-notes/design-patterns/设计原则_03.html#二、五大设计原则-solid" class="sidebar-link">二、五大设计原则（SOLID）</a></li><li class="sidebar-sub-header"><a href="/study-notes/design-patterns/设计原则_03.html#三、从设计到模式" class="sidebar-link">三、从设计到模式</a></li><li class="sidebar-sub-header"><a href="/study-notes/design-patterns/设计原则_03.html#四、介绍23种设计模式" class="sidebar-link">四、介绍23种设计模式</a></li><li class="sidebar-sub-header"><a href="/study-notes/design-patterns/设计原则_03.html#五、如何学习设计模式" class="sidebar-link">五、如何学习设计模式</a></li></ul></li><li><a href="/study-notes/design-patterns/工厂模式_04.html" class="sidebar-link">工厂模式</a></li><li><a href="/study-notes/design-patterns/单例模式_05.html" class="sidebar-link">单例模式</a></li><li><a href="/study-notes/design-patterns/适配器模式_06.html" class="sidebar-link">适配器模式</a></li><li><a href="/study-notes/design-patterns/装饰器模式_07.html" class="sidebar-link">装饰器模式</a></li><li><a href="/study-notes/design-patterns/代理模式_08.html" class="sidebar-link">代理模式</a></li><li><a href="/study-notes/design-patterns/外观模式_9.html" class="sidebar-link">外观模式</a></li><li><a href="/study-notes/design-patterns/观察者模式_10.html" class="sidebar-link">观察者模式</a></li><li><a href="/study-notes/design-patterns/迭代器模式_11.html" class="sidebar-link">迭代器模式</a></li><li><a href="/study-notes/design-patterns/状态模式_12.html" class="sidebar-link">状态模式</a></li><li><a href="/study-notes/design-patterns/其他设计模式_13.html" class="sidebar-link">其他设计模式</a></li><li><a href="/study-notes/design-patterns/购物车_14.html" class="sidebar-link">实现一个购物车</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="设计原则"><a href="#设计原则" class="header-anchor">#</a> 设计原则</h1> <h2 id="一、-何为设计"><a href="#一、-何为设计" class="header-anchor">#</a> 一、 何为设计</h2> <ol><li><p>描述<br>
+(1)按照哪一种思路或者标准来实现功能<br>
+(2)功能相同，可以有不同设计方案实现<br>
+(3)伴随需求增加，设计的作用才能体现出来<br>
+(4)前期设计不正确可能导致后期需求变更修改繁琐，改动难度上升，甚至可能重构</p></li> <li><p>结合《UNIX/LINUX设计哲学》<br>
+(1)准则1：小即是美<br>
+(2)准则2：让每个程序只做好一件事<br>
+(3)准则3：快速建立原型<br>
+(4)准则4：舍弃高效率而取可移植性<br>
+(5)准则5：采用纯文本来存储数据<br>
+(6)准则6：充分利用软件的杠杆效应（即软件的可复用性）<br>
+(7)准则7：使用shell脚本来提高杠杆效应和可移植性<br>
+(8)准则8：避免强制性的用户界面（用户界面和系统分开）<br>
+(9)准则9：让每个程序都成为过滤器<br>
+例：ls | grep '.json' | grep 'package'<br>
+这个程序输入ls通过|可以过滤到grep<br></p> <p>--- 小准则 ---</p> <p>(1)小准则：允许用户定制环境<br>
+(2)小准则：尽量使操作内核小而轻量化<br>
+(3)小准则：使用小写字母并尽量简写<br>
+(4)小准则：沉默是金（有值输出值，没值或者值不对等输出默认输出值）<br></p> <p>例：<br>
+ls | grep '.json' | grep 'package1'
+执行完这个指令命令行什么都没输出，这就是沉默是金
+然后ls | grep '.json' | grep 'package1' | wc -l结果就是0</p> <p>假如ls | grep '.json' | grep 'package1'执行完输出了&quot;no file&quot;,然后执行ls | grep '.json' | grep 'package1' | wc -l结果就是1，这显然是不对的<br>
+(5)小准则：各部分之和大于整体<br>
+(6)小准则：寻求90%的解决方案<br></p></li></ol> <h2 id="二、五大设计原则-solid"><a href="#二、五大设计原则-solid" class="header-anchor">#</a> 二、五大设计原则（SOLID）</h2> <ol><li><p>S-单一职责原则<br>
+1.1 一个程序只做好一件事<br>
+1.2 如果功能过于复杂就拆分开，每个部分保持独立<br></p></li> <li><p>O-开放封闭原则<br>
+2.1 对扩展开放，对修改封闭<br>
+2.2 增加需求时，扩展新代码，而非修改已有代码<br>
+2.3 软件设计的终极目标<br></p></li> <li><p>L-李氏置换原则<br>
+3.1 子类能覆盖父类<br>
+3.2 所有父类能出现的地方，子类都能出现<br>
+3.3 JS使用较少（弱类型 &amp; 继承使用较少）<br></p></li> <li><p>I-接口独立原则<br>
+4.1 保持接口的单一独立，避免出现“胖接口”<br>
+4.2 JS中没有接口（TS除外），使用较少<br>
+4.3 类似于接口单一原则，这里更关注接口<br></p></li> <li><p>D-依赖导致原则<br>
+5.1 面向接口编程，依赖于抽象而不依赖于具体<br>
+5.2 使用方只关注接口而不关注具体类的实现<br>
+5.3 JS使用较少（没有借口 &amp; 弱类型）<br></p></li></ol> <h2 id="三、从设计到模式"><a href="#三、从设计到模式" class="header-anchor">#</a> 三、从设计到模式</h2> <ol><li>设计</li> <li>模式</li> <li>分开</li> <li>从设计到模式</li></ol> <h2 id="四、介绍23种设计模式"><a href="#四、介绍23种设计模式" class="header-anchor">#</a> 四、介绍23种设计模式</h2> <ol><li><p>创建型<br>
+1.1 工厂模式（工厂方法模式、抽象工厂模式、建造者模式）---对象怎么创建出来，怎么生成<br>
+1.2 单例模式<br>
+1.3 原型模式<br></p></li> <li><p>组合型<br>
+2.1 适配器模式<br>
+2.2 装饰器模式<br>
+2.3 代理模式<br>
+2.4 外观模式<br>
+2.5 桥接模式<br>
+2.6 组合模式<br>
+2.7 享元模式<br></p></li> <li><p>行为性<br>
+3.1 策略模式<br>
+3.2 模板方法模式<br>
+3.3 观察者模式<br>
+3.4 迭代器模式<br>
+3.5 职责链模式<br>
+3.6 命令模式<br>
+3.7 备忘录模式<br>
+3.8 状态模式<br>
+3.9 访问者模式<br>
+3.10 中介者模式<br>
+3.11 解释器模式<br></p></li></ol> <h2 id="五、如何学习设计模式"><a href="#五、如何学习设计模式" class="header-anchor">#</a> 五、如何学习设计模式</h2> <ol><li>明白每个设计的道理和用意</li> <li>通过经典应用案例体会它的使用场景</li> <li>自己编码时多思考，多模仿</li></ol></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">9/16/2022, 2:46:15 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/study-notes/design-patterns/UML 类图_02.html" class="prev">
+        UML 类图
+      </a></span> <span class="next"><a href="/study-notes/design-patterns/工厂模式_04.html">
+        工厂模式
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/study-notes/assets/js/app.039e21f8.js" defer></script><script src="/study-notes/assets/js/2.c66ffe4c.js" defer></script><script src="/study-notes/assets/js/52.d5814608.js" defer></script>
+  </body>
+</html>
