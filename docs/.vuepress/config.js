@@ -5,6 +5,7 @@ const router4 = require('../interview-advanced/router.js')
 const router5 = require('../cms-vue/router.js')
 const router6 = require('../HTTP/router.js')
 const router7 = require('../node/router.js')
+const router8 = require('../data-structure/router.js')
 
 module.exports = {
     title: 'Notes',
@@ -86,6 +87,14 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 4,
                     children: router7
+                }
+            ],
+            '/data-structure/': [
+                {
+                    title: '数据结构',
+                    collapsable: false,
+                    sidebarDepth: 4,
+                    children: router8
                 }
             ]
         }
