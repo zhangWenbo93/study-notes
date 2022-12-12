@@ -29,7 +29,8 @@ module.exports = {
                     { text: '能力进阶', link: '/interview-advanced/mind-mapping' },
                     { text: 'vue koa 实现后台管理', link: '/cms-vue/advance' },
                     { text: 'HTTP协议', link: '/HTTP/了解HTTP协议' },
-                    { text: 'node应用开发', link: '/node/Node.js在前后端的区别' }
+                    { text: 'node应用开发', link: '/node/Node.js在前后端的区别' },
+                    { text: '数据结构与算法', link: '/data-structure/数据结构' }
                 ]
             }
         ],
