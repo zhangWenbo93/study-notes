@@ -1,8 +1,8 @@
 import Vue from 'vue'
 
-Vue.component("Badge", () => import("D:\\我的\\study-notes\\node_modules\\@vuepress\\theme-default\\global-components\\Badge"))
-Vue.component("CodeGroup", () => import("D:\\我的\\study-notes\\node_modules\\@vuepress\\theme-default\\global-components\\CodeGroup"))
-Vue.component("CodeBlock", () => import("D:\\我的\\study-notes\\node_modules\\@vuepress\\theme-default\\global-components\\CodeBlock"))
+Vue.component("Badge", () => import("D:\\my\\study-notes\\node_modules\\@vuepress\\theme-default\\global-components\\Badge"))
+Vue.component("CodeBlock", () => import("D:\\my\\study-notes\\node_modules\\@vuepress\\theme-default\\global-components\\CodeBlock"))
+Vue.component("CodeGroup", () => import("D:\\my\\study-notes\\node_modules\\@vuepress\\theme-default\\global-components\\CodeGroup"))
 
 
 export default {}
